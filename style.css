@@ -96,6 +96,8 @@ body > footer{
     gap: 0px;     
     justify-content: center; 
     flex-wrap: wrap;
+
+    align-items: center;
 }
 
 .image-container img {
@@ -118,6 +120,13 @@ body > footer{
 
 .image-container img:nth-child(4) {
     width: 225px;
+}
+
+#whalemap{
+    justify-items: center;
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
 }
 
 .image-container-2 {
@@ -149,6 +158,13 @@ body > footer{
     width: 225px;
 }
 
+#giraffemap{
+    justify-items: center;
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+}
+
 
 .image-container-3 {
     display: flex; 
@@ -177,6 +193,13 @@ body > footer{
 
 .image-container-3 img:nth-child(4) {
     width: 350px;
+}
+
+#elephantmap{
+    justify-items: center;
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
 }
 
 .image-container-4 {
@@ -210,6 +233,13 @@ body > footer{
     height: 175px
 }
 
+#crocodilemap{
+    justify-items: center;
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+}
+
 .image-container-5 {
     display: flex; 
     gap: 0px;     
@@ -240,6 +270,13 @@ body > footer{
 .image-container-5 img:nth-child(4) {
     width: 250px;
     height: 175px
+}
+
+#ostrichmap{
+    justify-items: center;
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
 }
 
 #footer-ul  {
